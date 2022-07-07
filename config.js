@@ -42,7 +42,6 @@ global.salah = 'Salah ❌\n'
 global.stiker_wait = 'Stiker sedang dibuat'
 global.packname = '2022'
 global.author = '© Hyzer Official'
-global.doc = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
 
 //=============『 Apikey 』================== //
 global.APIs = { // API Prefix
