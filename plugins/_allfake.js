@@ -59,7 +59,7 @@ handler.all = async function (m) {
             description: "https://Instagram.com/shinz_06", 
             title: 'Elaina-MD',
             body: wm,
-            thumbnailUrl: await( await fetch(global.thumb)).buffer(),
+            thumbnailUrl: fs.readFileSync("./thumb.jpg")
             sourceUrl: sgc
     }
     } }
