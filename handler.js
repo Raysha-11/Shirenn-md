@@ -782,7 +782,7 @@ global.dfail = (type, m, conn) => {
         unreg: 'Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Manusia.16*',
         restrict: '*ʀᴇsᴛʀɪᴄᴛ*\n• ʀᴇsᴛʀɪᴄᴛ ʙᴇʟᴜᴍ ᴅɪɴʏᴀʟᴀᴋᴀɴ ᴅɪᴄʜᴀᴛ ɪɴɪ'
     }[type]
-    if (msg) return conn.reply(m.chat, msg, m, { contextInfo: { externalAdReply: {title: global.wm, body: '404 Access denied ✘', sourceUrl: global.sweb, thumbnail: fs.readFileSync('./thumbnail.jpg') }}})
+    if (msg) return conn.reply(m.chat, msg, m, { contextInfo: { externalAdReply: {title: global.wm, body: '404 Access denied ✘', sourceUrl: global.web, thumbnail: fs.readFileSync('./thumb.jpg') }}})
 
 }
 
